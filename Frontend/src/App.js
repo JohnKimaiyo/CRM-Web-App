@@ -6,7 +6,7 @@ import TicketPage from './pages/TicketPage'
 import CategoriesContext from './context'
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
        <CategoriesContext.Provider value={value}>
         <BrowserRouter>
           <Nav />
